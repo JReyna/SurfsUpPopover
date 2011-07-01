@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C4A8BE13BE904D007501D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4A8BD13BE904D007501D9 /* UIKit.framework */; };
+		16C4A8C013BE904D007501D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4A8BF13BE904D007501D9 /* Foundation.framework */; };
+		16C4A8C213BE904D007501D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C4A8C113BE904D007501D9 /* CoreGraphics.framework */; };
+		16C4A8C813BE904D007501D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C4A8C613BE904D007501D9 /* InfoPlist.strings */; };
+		16C4A8CA13BE904D007501D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4A8C913BE904D007501D9 /* main.m */; };
+		16C4A8CE13BE904D007501D9 /* Surf_s_UpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4A8CD13BE904D007501D9 /* Surf_s_UpAppDelegate.m */; };
+		16C4A8D013BE904D007501D9 /* Surf_s_UpViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 16C4A8CF13BE904D007501D9 /* Surf_s_UpViewController.h */; };
+		16C4A8D213BE904D007501D9 /* Surf_s_UpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C4A8D113BE904D007501D9 /* Surf_s_UpViewController.m */; };
+		16C4A8D513BE904D007501D9 /* Surf_s_UpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16C4A8D313BE904D007501D9 /* Surf_s_UpViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C4A8B913BE904D007501D9 /* Surf's Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Surf's Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C4A8BD13BE904D007501D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C4A8BF13BE904D007501D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C4A8C113BE904D007501D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C4A8C513BE904D007501D9 /* Surf's Up-Info.plist */ = {isa = PBXFileReference; path = "Surf's Up-Info.plist"; sourceTree = "<group>"; };
+		16C4A8C713BE904D007501D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C4A8C913BE904D007501D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C4A8CB13BE904D007501D9 /* Surf's Up-Prefix.pch */ = {isa = PBXFileReference; path = "Surf's Up-Prefix.pch"; sourceTree = "<group>"; };
+		16C4A8CC13BE904D007501D9 /* Surf_s_UpAppDelegate.h */ = {isa = PBXFileReference; path = Surf_s_UpAppDelegate.h; sourceTree = "<group>"; };
+		16C4A8CD13BE904D007501D9 /* Surf_s_UpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Surf_s_UpAppDelegate.m; sourceTree = "<group>"; };
+		16C4A8CF13BE904D007501D9 /* Surf_s_UpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Surf_s_UpViewController.h; sourceTree = "<group>"; };
+		16C4A8D113BE904D007501D9 /* Surf_s_UpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Surf_s_UpViewController.m; sourceTree = "<group>"; };
+		16C4A8D413BE904D007501D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Surf_s_UpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C4A8B613BE904D007501D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C4A8BE13BE904D007501D9 /* UIKit.framework in Frameworks */,
+				16C4A8C013BE904D007501D9 /* Foundation.framework in Frameworks */,
+				16C4A8C213BE904D007501D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C4A8AE13BE904C007501D9 = {
+			isa = PBXGroup;
+			children = (
+				16C4A8C313BE904D007501D9 /* Surf's Up */,
+				16C4A8BC13BE904D007501D9 /* Frameworks */,
+				16C4A8BA13BE904D007501D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C4A8BA13BE904D007501D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C4A8B913BE904D007501D9 /* Surf's Up.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C4A8BC13BE904D007501D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C4A8BD13BE904D007501D9 /* UIKit.framework */,
+				16C4A8BF13BE904D007501D9 /* Foundation.framework */,
+				16C4A8C113BE904D007501D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C4A8C313BE904D007501D9 /* Surf's Up */ = {
+			isa = PBXGroup;
+			children = (
+				16C4A8CC13BE904D007501D9 /* Surf_s_UpAppDelegate.h */,
+				16C4A8CD13BE904D007501D9 /* Surf_s_UpAppDelegate.m */,
+				16C4A8CF13BE904D007501D9 /* Surf_s_UpViewController.h */,
+				16C4A8D113BE904D007501D9 /* Surf_s_UpViewController.m */,
+				16C4A8D313BE904D007501D9 /* Surf_s_UpViewController.xib */,
+				16C4A8C413BE904D007501D9 /* Supporting Files */,
+			);
+			path = "Surf's Up";
+			sourceTree = "<group>";
+		};
+		16C4A8C413BE904D007501D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C4A8C513BE904D007501D9 /* Surf's Up-Info.plist */,
+				16C4A8C613BE904D007501D9 /* InfoPlist.strings */,
+				16C4A8C913BE904D007501D9 /* main.m */,
+				16C4A8CB13BE904D007501D9 /* Surf's Up-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C4A8B813BE904D007501D9 /* Surf's Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C4A8D813BE904D007501D9 /* Build configuration list for PBXNativeTarget "Surf's Up" */;
+			buildPhases = (
+				16C4A8B513BE904D007501D9 /* Sources */,
+				16C4A8B613BE904D007501D9 /* Frameworks */,
+				16C4A8B713BE904D007501D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Surf's Up";
+			productName = "Surf's Up";
+			productReference = 16C4A8B913BE904D007501D9 /* Surf's Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C4A8B013BE904D007501D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "komorka technology, llc";
+			};
+			buildConfigurationList = 16C4A8B313BE904D007501D9 /* Build configuration list for PBXProject "Surf's Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C4A8AE13BE904C007501D9;
+			productRefGroup = 16C4A8BA13BE904D007501D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C4A8B813BE904D007501D9 /* Surf's Up */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C4A8B713BE904D007501D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C4A8C813BE904D007501D9 /* InfoPlist.strings in Resources */,
+				16C4A8D013BE904D007501D9 /* Surf_s_UpViewController.h in Resources */,
+				16C4A8D513BE904D007501D9 /* Surf_s_UpViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C4A8B513BE904D007501D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C4A8CA13BE904D007501D9 /* main.m in Sources */,
+				16C4A8CE13BE904D007501D9 /* Surf_s_UpAppDelegate.m in Sources */,
+				16C4A8D213BE904D007501D9 /* Surf_s_UpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16C4A8C613BE904D007501D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C4A8C713BE904D007501D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C4A8D313BE904D007501D9 /* Surf_s_UpViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C4A8D413BE904D007501D9 /* en */,
+			);
+			name = Surf_s_UpViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C4A8D613BE904D007501D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C4A8D713BE904D007501D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C4A8D913BE904D007501D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Surf's Up/Surf's Up-Prefix.pch";
+				INFOPLIST_FILE = "Surf's Up/Surf's Up-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C4A8DA13BE904D007501D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Surf's Up/Surf's Up-Prefix.pch";
+				INFOPLIST_FILE = "Surf's Up/Surf's Up-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C4A8B313BE904D007501D9 /* Build configuration list for PBXProject "Surf's Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C4A8D613BE904D007501D9 /* Debug */,
+				16C4A8D713BE904D007501D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C4A8D813BE904D007501D9 /* Build configuration list for PBXNativeTarget "Surf's Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C4A8D913BE904D007501D9 /* Debug */,
+				16C4A8DA13BE904D007501D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C4A8B013BE904D007501D9 /* Project object */;
+}
