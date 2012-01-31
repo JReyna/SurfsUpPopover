@@ -1,5 +1,5 @@
 //
-//  main.m
+//  SurfsUpAppDelegate_iPhone.h
 //  Surf's Up
 //
 //  Created by Steven Baranski on 9/16/11.
@@ -16,11 +16,6 @@
 
 #import "SurfsUpAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
-    int retVal = 0;
-    @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
-    }
-    return retVal;
-}
+@interface SurfsUpAppDelegate_iPhone : SurfsUpAppDelegate
+
+@end

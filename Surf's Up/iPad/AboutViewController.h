@@ -1,8 +1,8 @@
 //
-//  main.m
+//  AboutViewController.h
 //  Surf's Up
 //
-//  Created by Steven Baranski on 9/16/11.
+//  Created by Steven Baranski on 9/17/11.
 //  Copyright 2011 Razeware LLC. All rights reserved.
 //
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -13,14 +13,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 //
+#import <UIKit/UIPopoverBackgroundView.h>
 
-#import "SurfsUpAppDelegate.h"
+@interface AboutViewController : UIViewController
 
-int main(int argc, char *argv[])
-{
-    int retVal = 0;
-    @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
-    }
-    return retVal;
-}
+@end

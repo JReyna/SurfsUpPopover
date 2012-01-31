@@ -1,8 +1,8 @@
 //
-//  main.m
+//  AboutViewController.m
 //  Surf's Up
 //
-//  Created by Steven Baranski on 9/16/11.
+//  Created by Steven Baranski on 9/17/11.
 //  Copyright 2011 Razeware LLC. All rights reserved.
 //
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -14,13 +14,18 @@
 // THE SOFTWARE.
 //
 
-#import "SurfsUpAppDelegate.h"
+#import "AboutViewController.h"
 
-int main(int argc, char *argv[])
+@implementation AboutViewController
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
 {
-    int retVal = 0;
-    @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
-    }
-    return retVal;
+    [super viewDidLoad];
+    
+    CGSize viewSize = [[self view] frame].size;
+    [self setContentSizeForViewInPopover:viewSize];
 }
+    
+@end

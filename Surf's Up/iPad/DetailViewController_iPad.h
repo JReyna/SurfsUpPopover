@@ -1,8 +1,8 @@
 //
-//  main.m
+//  DetailViewController_iPad.h
 //  Surf's Up
 //
-//  Created by Steven Baranski on 9/16/11.
+//  Created by Steven Baranski on 9/17/11.
 //  Copyright 2011 Razeware LLC. All rights reserved.
 //
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -14,13 +14,16 @@
 // THE SOFTWARE.
 //
 
-#import "SurfsUpAppDelegate.h"
-
-int main(int argc, char *argv[])
-{
-    int retVal = 0;
-    @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
-    }
-    return retVal;
+@interface DetailViewController_iPad : UIViewController <UISplitViewControllerDelegate, UIPopoverControllerDelegate>
+{    
+    IBOutlet UIToolbar  *toolbar;    
+    IBOutlet UISwitch   *rentSwitch;
 }
+
+@property (nonatomic, retain) UIPopoverController   *detailPopover;
+@property (nonatomic, retain) UIPopoverController   *aboutPopover;
+@property (nonatomic, retain) id                    lastTappedButton;
+
+- (IBAction)aboutTapped:(id)sender;
+
+@end

@@ -1,5 +1,5 @@
 //
-//  main.m
+//  SurfsUpViewController_iPad.h
 //  Surf's Up
 //
 //  Created by Steven Baranski on 9/16/11.
@@ -14,13 +14,12 @@
 // THE SOFTWARE.
 //
 
-#import "SurfsUpAppDelegate.h"
+#import "SurfsUpViewController.h"
 
-int main(int argc, char *argv[])
-{
-    int retVal = 0;
-    @autoreleasepool {
-        retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([SurfsUpAppDelegate class]));
-    }
-    return retVal;
-}
+@class DetailViewController_iPad;
+
+@interface SurfsUpViewController_iPad : SurfsUpViewController
+
+@property (nonatomic, retain) DetailViewController_iPad *detailVC;
+
+@end

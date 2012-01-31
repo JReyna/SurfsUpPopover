@@ -32,5 +32,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMainNibFile</key>
+	<string>MainWindow_iPhone</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow_iPad</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 </dict>
 </plist>
